@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ContactAddTask</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="uNameHint">User Name</string>
+    <string name="uContactNumHint">Contact Number</string>
+
+    <!-- > Buttons Strings -->
+    <string name="image_pick"> Browse Image</string>
+    <string name="add_contact_detail"> Add New Contact</string>
+</resources>

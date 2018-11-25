@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:id="@+id/add_fragment"
+             tools:context=".Fragments.ContactAddFragment">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="horizontal" android:background="@color/app_background">
+        <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/contactImage_et"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/uNameHint"
+                    android:inputType="text"
+                    android:id="@+id/contactName_et"
+                    style="@style/editText_style"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/editText_style"
+                    android:hint="@string/uContactNumHint"
+                    android:maxLength="11"
+                    android:inputType="number"
+                    android:id="@+id/contactNumber_et"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/add_btn"
+                    android:padding="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="right"
+                    style="@style/custom_button"
+                    android:text="@string/add_contact_detail"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
